@@ -1,0 +1,25 @@
+.contenedor-procesos {
+  text-align: center; /* Centrar el texto */
+  background-color: #f0f0f0; /* Fondo claro */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.titulo {
+  color: black; /* Cambia el color del título si es necesario */
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+.imagenes {
+  display: flex;
+  flex-direction: column; /* Una imagen debajo de la otra */
+  align-items: center;
+  gap: 10px; /* Espacio entre imágenes */
+}
+
+.imagenes img {
+  width: 600px; /* Ajustar el ancho de las imágenes */
+  height: auto; /* Mantiene la relación de aspecto */
+}

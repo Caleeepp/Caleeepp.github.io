@@ -1,0 +1,30 @@
+.ensayo-de-materiales-container {
+    text-align: center;
+    background-color: #444444; /* Fondo gris fuerte */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .ensayo-de-materiales-container h1 {
+    color: white; /* Texto en blanco */
+    font-weight: bold;
+    text-transform: uppercase; /* Convertir a mayúsculas */
+    font-size: 2rem; /* Tamaño de fuente más grande */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para remarcar el texto */
+    margin-bottom: 20px; /* Espacio debajo del título */
+  }
+  
+  .imagenes-ensayo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Espacio entre las imágenes */
+  }
+  
+  .imagenes-ensayo img {
+    max-width: 600px; /* Ancho máximo de las imágenes */
+    width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+  }
+  

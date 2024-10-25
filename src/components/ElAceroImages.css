@@ -1,0 +1,27 @@
+.el-acero-container {
+  text-align: center; /* Centrar el contenido */
+  background-color: #f0f0f0; /* Fondo claro */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.el-acero-container h1 {
+  color: black; /* Texto negro */
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px; /* Espacio entre el título y las imágenes */
+}
+
+.imagenes-acero {
+  display: flex;
+  flex-direction: column; /* Apilar las imágenes verticalmente */
+  align-items: center; /* Centrar las imágenes */
+  gap: 20px; /* Espacio entre las imágenes */
+}
+
+.imagenes-acero img {
+  max-width: 600px; /* Ancho máximo de las imágenes */
+  width: 100%; /* Ancho adaptable */
+  height: auto; /* Altura automática para mantener la proporción */
+  border: 2px solid #ddd; /* Bordes de las imágenes */
+}

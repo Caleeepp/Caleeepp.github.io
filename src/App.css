@@ -1,0 +1,71 @@
+/* Contenedor principal de la aplicación */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Navegación horizontal */
+.horizontal-nav {
+  font-size: 20px; /* Ajusta el tamaño de fuente para todo el menú */
+}
+
+.horizontal-nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 20px; /* Espacio entre los enlaces */
+}
+
+.horizontal-nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase; /* Cambia el texto a mayúsculas */
+}
+
+/* Estilo para el contenido */
+.content {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  margin-top: 20px;
+}
+
+/* Estilo general para los títulos */
+h1 {
+  font-size: 2.5rem; /* Título principal */
+  text-align: center; /* Centrar el texto */
+  color: #000; /* Color negro */
+}
+
+h2 {
+  font-size: 2rem; /* Título secundario */
+  text-align: center; /* Centrar el texto */
+  margin: 20px 0; /* Margen para separar de otros elementos */
+  color: #000; /* Color negro */
+}
+/* Clase para el texto de introducción */
+.intro-text {
+  font-size: 1.5rem; /* Tamaño del texto de introducción */
+  line-height: 1.6; /* Altura de línea para mejorar la legibilidad */
+  text-align: center; /* Centrar el texto */
+  margin: 20px; /* Margen para separar del borde */
+  color: #000; /* Color negro */
+}
+
+/* Galería de imágenes para el Informe Termoquímico */
+.image-gallery {
+  display: flex;
+  flex-direction: column; /* Para mostrar las imágenes en columna */
+  align-items: center; /* Centrarlas horizontalmente */
+}
+
+.image-gallery img {
+  max-width: 100%; /* Asegúrate de que las imágenes no excedan el ancho del contenedor */
+  margin: 10px 0; /* Espacio entre las imágenes */
+}
+

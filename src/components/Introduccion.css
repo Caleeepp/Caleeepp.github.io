@@ -1,0 +1,16 @@
+.introduccion-container {
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centrar el texto */
+    background-color: #f9f9f9; /* Fondo claro (opcional) */
+  }
+  
+  .introduccion-container h1 {
+    font-size: 36px; /* Tamaño del título */
+    margin-bottom: 20px; /* Espacio debajo del título */
+  }
+  
+  .introduccion-container p {
+    font-size: 18px; /* Tamaño del texto del párrafo */
+    line-height: 1; /* Espaciado entre líneas */
+  }
+  

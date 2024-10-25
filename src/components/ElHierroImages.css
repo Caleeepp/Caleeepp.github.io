@@ -1,0 +1,25 @@
+.fondo-hierro {
+    background-color: #7d7d7d; /* Fondo gris */
+    padding: 20px;
+    text-align: center; /* Centrar el texto */
+  }
+  
+  .titulo {
+    color: white; /* Color del texto del título */
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px; /* Espacio debajo del título */
+  }
+  
+  .imagenes {
+    display: flex;
+    flex-direction: column; /* Una imagen debajo de la otra */
+    align-items: center;
+    gap: 10px; /* Espacio entre imágenes */
+  }
+  
+  .imagenes img {
+    width: 600px; /* Ajustar el ancho de las imágenes */
+    height: auto; /* Mantiene la relación de aspecto */
+  }
+  

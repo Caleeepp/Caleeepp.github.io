@@ -1,0 +1,38 @@
+.fondoaltoshornos {
+  background-color: #7d7d7d; /* Un gris más fuerte */
+  padding: 20px;
+  text-align: center; /* Centra el texto dentro del contenedor */
+}
+
+.titulo {
+  font-size: 2.5rem;
+  margin-bottom: 20px; /* Espacio debajo del título */
+  color: #fff; /* Asegura que el título sea visible sobre el fondo gris */
+  text-transform: uppercase; /* Convierte el texto a mayúsculas */
+}
+
+.video-section {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.video-section video {
+  width: 100%;
+  max-width: 600px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.imagenes {
+  display: flex;
+  flex-direction: column; /* Las imágenes se apilan una debajo de la otra */
+  align-items: center; /* Centra las imágenes horizontalmente */
+  gap: 10px; /* Espacio entre imágenes */
+}
+
+.imagenes img {
+  width: 600px; /* Ajusta el ancho de las imágenes */
+  height: auto; /* Mantiene la relación de aspecto */
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}

@@ -1,0 +1,22 @@
+.presentaciones-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .presentacion-item {
+    margin: 20px 0;
+  }
+  
+  .presentacion-item h2 {
+    color: #000;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  iframe {
+    border: none;
+  }
+

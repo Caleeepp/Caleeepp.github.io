@@ -1,0 +1,28 @@
+.temas-container {
+    padding: 20px;
+  }
+  
+  .temas-box {
+    border: 2px solid #000000; /* Cambia el color del borde como desees */
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #ff9e9e; /* Fondo gris claro */
+  }
+  
+  .temas-box ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el padding de la lista */
+  }
+  
+  .temas-box li {
+    font-weight: bold; /* Cambia a negrita */
+    font-style: italic; /* Cambia a cursiva */
+    text-transform: uppercase; /* Cambia a mayúsculas */
+    margin-bottom: 10px; /* Espacio entre los elementos de la lista */
+  }
+  
+  .temas-box a {
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    color: #000; /* Cambia el color del texto como desees */
+  }
+  

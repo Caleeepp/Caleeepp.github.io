@@ -1,0 +1,25 @@
+/* Estilo para el contenedor principal de la página de videos */
+.video-container {
+  display: flex; /* Utiliza flexbox para alinear los videos */
+  justify-content: center; /* Centra los videos en el contenedor */
+  gap: 20px; /* Espacio entre los videos */
+  background-color: #1c1c1c; /* Fondo negro grafito */
+  padding: 20px; /* Espaciado interno */
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+.video-item {
+  display: flex;
+  flex-direction: column; /* Para tener el título encima del video */
+  align-items: center; /* Centra el contenido dentro de cada video-item */
+}
+
+h1 {
+  text-align: center; /* Centrar el título de la página */
+  color: rgb(0, 0, 0); /* Color del título principal en negro */
+}
+
+h2 {
+  text-align: center; /* Centrar los subtítulos de los videos */
+  color: rgb(255, 255, 255); /* Color de los subtítulos en blanco */
+}

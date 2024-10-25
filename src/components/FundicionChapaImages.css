@@ -1,0 +1,22 @@
+.fondo-fundicion {
+  background-color: #7d7d7d; /* Un gris más fuerte */
+  padding: 20px;
+  text-align: center; /* Centra el texto dentro del contenedor */
+}
+
+.titulo {
+  text-transform: uppercase; /* Convierte el texto a mayúsculas */
+  margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+.imagenes {
+  display: flex;
+  flex-direction: column; /* Las imágenes se apilan una debajo de la otra */
+  align-items: center; /* Centra las imágenes horizontalmente */
+  gap: 10px; /* Espacio entre imágenes */
+}
+
+.imagenes img {
+  width: 600px; /* Ajusta el ancho de las imágenes */
+  height: auto; /* Mantiene la relación de aspecto */
+}
